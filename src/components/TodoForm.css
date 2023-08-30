@@ -1,0 +1,41 @@
+.todoForm {
+    width: 450px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.form {
+    display: flex;
+    align-items: center;
+}
+
+.inputTodo {
+    width: 380px;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.4);
+    color: white;
+    border: 1px solid transparent;
+    margin-top: 20px;
+
+}
+
+.btnAdicionar {
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: .5s;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.btnAdicionar:hover {
+    background-color: #111;
+}

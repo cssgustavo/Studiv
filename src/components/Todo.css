@@ -1,0 +1,49 @@
+.todo {
+    width: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #808080;
+
+}
+
+.todo-p {
+    font-size: 15px;
+    color: white;
+}
+
+.buttonsTodo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.btnTodoComplete {
+    padding: 10px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    margin: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.btnTodoComplete:hover {
+    background-color: green;
+}
+
+.btnTodoX {
+    padding: 10px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    margin: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.btnTodoX:hover {
+    background-color: red;
+}
